@@ -1,0 +1,16 @@
+{
+  "name": "miniproject",
+  "version": "1.0.0",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vant-weapp": "^0.5.29",
+    "weui-miniprogram": "^1.1.1"
+  },
+  "keywords": [],
+  "description": ""
+}

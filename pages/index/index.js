@@ -1,0 +1,13 @@
+Page({
+  onLoad(){
+    wx.cloud.callFunction({
+      name:'getLogin'
+    })
+    .then(res=>{
+      console.log('云函数获取数据成功',res)
+    })
+    .catch(err=>{
+      console.log('云函数获取数据失败',err)
+    })
+  }
+})
