@@ -1,5 +1,1 @@
-<view class="container">
-<van-button round icon="https://img.yzcdn.cn/vant/logo.png" type="info">圆形按钮 带图标
-</van-button>
-</view>
-<view>nihao </view>
+
