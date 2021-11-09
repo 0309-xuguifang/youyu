@@ -32,10 +32,58 @@
 	</view>
 </view> -->
 
-<van-cell-group>
+<van-cell-group inset>
   <van-cell title="单元格" value="内容" />
-  <van-cell title="单元格" value="内容" label="描述信息" border="{{ false }}" />
+  <van-cell title="单元格" value="内容" label="描述信息" />
 </van-cell-group>
+
+<van-tabbar active="{{ active }}" bind:change="onChange">
+	<van-tabbar-item >
+    <image
+      slot="icon"
+      src="{{ icon1.normal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon1.active }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    明细
+  </van-tabbar-item>
+  <van-tabbar-item>
+    <image
+      slot="icon"
+      src="{{ icon2.normal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon2.active }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    统计
+	</van-tabbar-item>
+	<van-tabbar-item >
+    <image
+      slot="icon"
+      src="{{ icon3.normal }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    <image
+      slot="icon-active"
+      src="{{ icon3.active }}"
+      mode="aspectFit"
+      style="width: 30px; height: 18px;"
+    />
+    我的
+  </van-tabbar-item>
+</van-tabbar>
 
 
 
